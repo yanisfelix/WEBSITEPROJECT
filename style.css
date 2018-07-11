@@ -1,0 +1,40 @@
+body {
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  background-image: url('https://img.youtube.com/vi/AtdnWYqbMwc/maxresdefault.jpg');
+  background-size: cover;
+}
+
+header {
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  width: auto;
+  height: 190px;
+  background-color: white;
+}
+
+.logoheader {
+  margin-left: 500px;
+  margin-top: 10px;
+}
+
+function w3_open() {
+  document.getElementById("main").style.marginLeft = "14%";
+  document.getElementById("mySidebar").style.width = "25%";
+  document.getElementById("mySidebar").style.display = "block";
+  document.getElementById("openNav").style.display = 'none';
+}
+function w3_close() {
+  document.getElementById("main").style.marginLeft = "0%";
+  document.getElementById("mySidebar").style.display = "none";
+  document.getElementById("openNav").style.display = "inline-block";
+}
+
+
+.festivals {
+
+}
